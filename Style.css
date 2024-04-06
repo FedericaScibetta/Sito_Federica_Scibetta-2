@@ -1,0 +1,200 @@
+body {
+    background-color: rgba(65, 92, 161);
+    margin: 0;
+    font-family: "Busorama";
+}
+
+img {
+max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    max-width: 1120px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 44px ;
+    font-family: "Busorama";
+    font-size: 24px;
+
+}
+
+header p {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+header nav ul, footer nav ul  {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+header nav ul a, footer nav ul a {    
+    text-decoration: none;
+    color: #111;
+}
+
+header nav ul a:hover, footer nav ul a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+.titolo{
+    display: grid;
+    max-width: 1120px;
+    margin: auto;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+    padding: 20px 44px ;
+}
+.titolo h1{
+    font-family: "Busorama";
+    font-size: 95px;
+    text-align: center;
+    line-height: normal;
+    padding: 120px 44px ;
+}
+
+.paragrafo1 h2{
+    font-family: "Busorama";
+    font-size: 32px;
+    color: #F6B124;
+    text-align: left;
+    line-height: normal;
+    padding: 10px 50px ;
+    margin: auto;
+
+}
+ .paragrafo1 p {
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    color: #FFF;
+    font-family: "Bodoni 72";
+    font-size: 24px;
+    line-height: 150%; /* 36px */
+    padding: 20px 50px
+    }
+.paragrafo2 h2{
+    font-family: "Busorama";
+    font-size: 32px;
+    color: #F6B124;
+    text-align: left;
+    line-height: normal;
+    padding: 10px 50px ;
+    margin: auto;
+}
+
+.paragrafo2 p{
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    color: #FFF;
+    font-family: "Bodoni 72";
+    font-size: 24px;
+    line-height: 150%; /* 36px */
+    padding: 20px 50px
+}
+.paragrafo3 h2{
+    font-family: "Busorama";
+    font-size: 32px;
+    color: #F6B124;
+    text-align: left;
+    line-height: normal;
+    padding: 10px 50px ;
+    margin: auto;
+}
+
+.paragrafo3 p{
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    color: #FFF;
+    font-family: "Bodoni 72";
+    font-size: 24px;
+    line-height: 150%; /* 36px */
+    padding: 20px 50px
+}
+
+.immagine1{
+    max-width: 100%;
+    width: 418.191px;
+    height: 671.809px;
+    padding: 20px 492px;
+}
+.immagine2{
+    max-width: 100%;
+    width: 170px;
+    height: 264px;
+    padding: 20px 783px;
+} 
+.immagine3{
+    max-width: 100%;
+    width: 170px;
+    height: 264px;
+    padding: 10px 438px;
+}
+section.collegamenti {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+    max-width: 1100px;
+    margin: auto;
+    gap: 16px;
+}
+
+section.collegamenti a{
+    margin: 0;
+    padding: 20px 30px;
+    text-decoration: none;
+    color: #111;
+}
+section.collegamenti a:hover{
+    text-decoration: underline;
+    color: #FFF;
+}
+section.collegamenti img {
+    height: 204px;
+    width: 100%;
+    object-fit: cover;
+    padding: 0px 20px;
+    
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 20px;
+    font-size: 14px;
+}
+@media (max-width:600px) {
+    .info {
+        grid-template-columns: 1fr;
+        gap: 36px;
+    }
+
+    .info h1 {
+        font-size: 42px;
+    }
+
+    .container .text {
+        width: 100%;
+    }
+    
+    .container .image {
+        width: 100%;
+    }
+
+    .container {
+        flex-direction: column;
+        gap: 36px;
+    }
+    
+}
+
+
